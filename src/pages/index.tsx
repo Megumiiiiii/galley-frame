@@ -45,6 +45,12 @@ function App() {
 
   return (
     <div className="m-0 bg-[#0A0A0A] p-0 font-inter text-neutral-200">
+      <meta data-rh="true" property="og:image" content="/miku.jpg" />
+        <meta data-rh="true" name="twitter:image" content="/miku.jpg" />
+        <meta property="og:image:type" content="/miku.jpg" />
+        <meta property="og:image:width" content="1919" />
+        <meta property="og:image:height" content="885" />
+        
       <Header />
 
       <Helmet>
